@@ -11,7 +11,7 @@ pipeline {
             steps {
                 // Install and use the required tools
                 // For example, terraform installation
-                tool name: 'Terraform', type: 'TerraformInstallation'
+                tool name: 'terraform', type: 'TerraformInstallation'
             }
         }
         stage('Terraform Init') {
